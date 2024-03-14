@@ -1,0 +1,26 @@
+@media all and (max-width:500px) {
+    .title{
+        font-size: 2em;
+                font-weight: 800;
+        margin: 50px auto;
+        padding: 10px 0px; 
+        text-decoration: underline;
+    }
+    .more-details{
+        font-size: 0.5em;
+    }
+    .footer{
+        padding: 1em;
+    }
+    .footer-title {
+        margin: 0 30px 0 0;
+    }
+    .footer-title a{
+        text-wrap: nowrap;
+    }
+}
+@media all and (min-width:200px) and (max-width:370px){
+header .logo {
+    letter-spacing:0;
+}
+}
