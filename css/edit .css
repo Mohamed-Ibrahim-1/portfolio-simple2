@@ -1,0 +1,40 @@
+.imgsec{
+    position: relative;
+}
+.clock{
+    position: absolute;
+    color: #fff;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-family: math;
+    padding: 5px;
+    cursor: pointer;
+}
+.time{
+font-size: 1.5em;
+}
+.data{
+    text-align: center;
+    font-size: 1.1em;
+
+}
+.clock:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+}
+
+.spanclock{
+    display: inline;
+    font-size: 0.7em;    
+
+}
+
+/* btn project */
+#pre:disabled, #next:disabled{
+    opacity: 0.4;
+    color: #0000006e;
+    cursor: not-allowed;
+    }

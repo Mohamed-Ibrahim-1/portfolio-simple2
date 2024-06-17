@@ -24,3 +24,9 @@ header .logo {
     letter-spacing:0;
 }
 }
+/*  */
+@media all and (max-width:1200px) {
+    .project-card{
+        transform:none !important;
+    }
+}
